@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BF2D757-AE4D-2DDD-F438-EB616610FA0C" name="Order_details">
+<createdBy>jck</createdBy>
+<createdTime>2017-12-22 23:02:25 UTC</createdTime>
+<ownerDesignName>java_project</ownerDesignName>
+<engineerTo>
+<item key="B918FA56-DCCB-DBE5-8B6A-21BB1556E3DD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="F5F36DFE-D40E-AB62-A998-AF1279D4857D">
+<createdBy>jck</createdBy>
+<createdTime>2017-12-22 23:02:43 UTC</createdTime>
+<ownerDesignName>java_project</ownerDesignName>
+<engineerTo>
+<item key="B918FA56-DCCB-DBE5-8B6A-21BB1556E3DD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROD_ID" id="90E0A2F6-A869-39F4-2FDF-4ECB9E0D7309">
+<createdBy>jck</createdBy>
+<createdTime>2017-12-22 23:03:12 UTC</createdTime>
+<ownerDesignName>java_project</ownerDesignName>
+<engineerTo>
+<item key="B918FA56-DCCB-DBE5-8B6A-21BB1556E3DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORD_ID" id="3C18AEAE-2756-B98F-B893-F5B72821B4AD">
+<createdBy>jck</createdBy>
+<createdTime>2017-12-22 23:03:29 UTC</createdTime>
+<ownerDesignName>java_project</ownerDesignName>
+<engineerTo>
+<item key="B918FA56-DCCB-DBE5-8B6A-21BB1556E3DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No." id="A87CB623-243D-A00F-05E8-A5210936577B">
+<createdBy>jck</createdBy>
+<createdTime>2017-12-22 23:04:26 UTC</createdTime>
+<ownerDesignName>java_project</ownerDesignName>
+<engineerTo>
+<item key="B918FA56-DCCB-DBE5-8B6A-21BB1556E3DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount" id="ABBF2351-FFFA-1083-D1C9-CE7E54071387">
+<createdBy>jck</createdBy>
+<createdTime>2017-12-22 23:04:05 UTC</createdTime>
+<ownerDesignName>java_project</ownerDesignName>
+<engineerTo>
+<item key="B918FA56-DCCB-DBE5-8B6A-21BB1556E3DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="discount" id="F2F36E71-0B22-B8EE-1EBB-7CF4045E66E8">
+<createdBy>jck</createdBy>
+<createdTime>2017-12-22 23:04:46 UTC</createdTime>
+<ownerDesignName>java_project</ownerDesignName>
+<engineerTo>
+<item key="B918FA56-DCCB-DBE5-8B6A-21BB1556E3DD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="314B3B9A-5674-217B-7AA2-F182FD22D22E" name="Order_details PK">
+<createdBy>jck</createdBy>
+<createdTime>2017-12-22 23:03:09 UTC</createdTime>
+<ownerDesignName>java_project</ownerDesignName>
+<engineerTo>
+<item key="B918FA56-DCCB-DBE5-8B6A-21BB1556E3DD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F5F36DFE-D40E-AB62-A998-AF1279D4857D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
